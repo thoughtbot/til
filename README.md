@@ -1,12 +1,12 @@
 # Today I Learned
 
-This repo will contain a bunch of short markdown documents describing something
-we've learned. These may eventually:
+We are constantly learning new things. This is a repo to share our learnings.
+TILs are short markdown documents (a few sentences + example code) explaining a
+new concept, bit of syntax, command, or tip that we've learned.
 
-* Get tweeted when a new tip is committed
-* Get rolled up into a weekly/bi-weekly blog post
-* Get their own blog?
+Browse TIL's by topic:
 
-Check out [this
-PR](https://github.com/thoughtbot/robots.thoughtbot.com/pull/580) to see the
-discussion that led to this repo
+* [Haskell](haskell)
+* [Ruby on Rails](rails)
+* [Ruby](ruby)
+* [vim](vim)
