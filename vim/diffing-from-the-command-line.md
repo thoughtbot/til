@@ -1,6 +1,6 @@
 # Easy file diffing
 
-Vim comes with it's own diff viewer. It can be launched from the command-line
+Vim comes with its own diff viewer. It can be launched from the command-line
 with:
 
 ```bash
