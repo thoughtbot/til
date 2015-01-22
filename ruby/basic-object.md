@@ -22,7 +22,19 @@ This is useful for delegators which would otherwise not delegate methods such as
 Example:
 
 ```ruby
-class ListDelegator < BasicObject
+class ListDelegator
+  def initialize(*list)
+    @list = list
+  end
+
+  def method_missing(method, *args, &block)
+    @list.map do |item|
+      item.__send__(method, *args, &block)
+    end
+  end
+end
+
+class ListDelegatorBasic < BasicObject
   def initialize(*list)
     @list = list
   end
@@ -40,5 +52,6 @@ class Out
   end
 end
 
-ListDelegator.new(Out.new).to_s # => ["Out"]
+ListDelegator.new(Out.new).to_s # => "#<ListDelegator2:0x007fcab400d148>"
+ListDelegatorBasic.new(Out.new).to_s # => ["Out"]
 ```
