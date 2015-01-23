@@ -60,6 +60,20 @@ will sometimes return `nil`
 # => []
 ```
 
+## Parallel assignment with splat
+
+This has the advantage of avoiding libraries altogether, at the expense of
+a spare variable (`_`) -- there's no documentation to consult (you just need to
+know Ruby).
+
+```ruby
+_, *rest_of_list = list
+rest_of_list
+# => [2,3,4]
+list # is not modified
+# => [1,2,3,4]
+```
+
 [shift docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-shift
 [slice docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-slice
 [drop docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-drop
