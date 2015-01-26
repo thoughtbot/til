@@ -2,7 +2,7 @@
 
 __NOTE__: Information taken from [python guide](http://docs.python-guide.org/en/latest/writing/gotchas/)
 
-One of the most poker face moments for new developers is when they do discover for
+One of the most confusing moments for new developers is when they discover for
 the first time how Python treat default arguments in function definitions. 
 
 Let's say you want to define a function that accepts a list as a parameter, and you
@@ -29,7 +29,7 @@ print my_other_list
 [42]
 ```
 
-But... what you get instead is:
+But what you get instead is:
 
 ```
 [12]
