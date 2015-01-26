@@ -63,3 +63,22 @@ will sometimes return `nil`
 [shift docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-shift
 [slice docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-slice
 [drop docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-drop
+
+## Splat method
+
+Using the splat method which does not mutate, does not require any arguments and always return the original list
+
+```ruby
+first, *rest = list
+# => [1,2,3,4]
+
+first
+# => 1
+
+rest
+# => [2,3,4]
+
+list
+# => [1,2,3,4]
+
+```
