@@ -1,7 +1,7 @@
 # Merge all changes from another branch as a single commit:
 
-Let's say you want to merge `my-feature` (which contain 10 commits) into `develop`:
+Let's say you want to merge `another-branch` (which contains 10 commits) into `master`:
 
-    git checkout develop
-    git merge --squash my-feature #Will stage new files for commit.
-    git commit -m "Merging my-feature branch"
+    git checkout master
+    git merge --squash another-branch #Will stage new files for commit.
+    git commit
