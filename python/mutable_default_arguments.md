@@ -38,10 +38,10 @@ But what you get instead is:
 
 A new list is created once when the function is defined, and the same list is used in each successive call.
 
-Python’s default arguments are evaluated once when the function is defined, not each time the function is called (like it is in say, Ruby). This means that if you use a mutable default argument and mutate it, you will and have mutated that object for all future calls to the function as well.
+Python’s default arguments are evaluated once when the function is defined, instead of each time the function is called (like it is in say Ruby). This means that if you use a mutable default argument and mutate it, you will and have mutated that object for all future calls to the function as well.
 
 ### What you should do
-Create a new object each time the function is called, by using a default arg to signal that no argument was provided (None is often a good choice):
+Create a new object each time the function is called, by using a default arg to signal that no argument was provided (`None` is often a good choice):
 
 ```python
 def append_to(element, to=None):
