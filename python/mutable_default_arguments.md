@@ -43,7 +43,7 @@ Python’s default arguments are evaluated once when the function is defined, no
 ### What you should do
 Create a new object each time the function is called, by using a default arg to signal that no argument was provided (None is often a good choice):
 
-```
+```python
 def append_to(element, to=None):
     if to is None:
         to = []
