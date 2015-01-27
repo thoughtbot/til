@@ -1,4 +1,4 @@
-# Returning a fixed amount of items from the tail of a list
+# Returning a fixed number of items from the tail of a list
 
 [`Array#last`][last docs] takes an argument to limit the number of items to return 
 from the tail of a list.
