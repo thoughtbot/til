@@ -6,7 +6,7 @@ many of the most used methods on `Array` such as `[]`.
 
 Given the following HTML:
 
-```ruby
+```html
 <body>
   <p>Some content</p>
   <p>Other content</p>
