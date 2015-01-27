@@ -1,7 +1,7 @@
 # NumberFormatting 
 
 ## Assignment
-How can someone format a number easily, without thinking too much about how the format would look like in a specific locale. Let's say we want to format: `12345.124` that it will look something like: `12,345.12` of course special charakters according to the locale, but how can this be done?
+How can someone format a number easily, without thinking too much about how the format would look like in a specific locale. Let's say we want to format: `12345.124` that it will look something like: `12,345.12` of course special characters according to the locale, but how can this be done?
 
 ## Solution
 ```java
