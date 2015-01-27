@@ -8,4 +8,4 @@ from the tail of a list.
 # = > [4, 5]
 ```
 
-[last docs](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-last)
+[last docs]: (http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-last)
