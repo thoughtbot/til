@@ -1,11 +1,11 @@
-## Power of the plus operator ##
+## Pitfalls of the plus operator ##
 While playing around in Google Chrome Developer Tools, I had stumbled upon 
 the power of the plus operator.
 
 As an example, it is possible to add together an object and array using the '+' operator to return a string object,
 
 ```javascript
-([] + {}) // returns string "[object Object]"
+([] + {}) // evaluates out to, "" + "[object Object]" (the toString() representation of the types respectively) resulting in "[object Object]"
 ```
 
 To take this one step further now that we have a string object, we have the ability
