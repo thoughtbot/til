@@ -14,7 +14,7 @@ setup(
 ```
 
 However, **entry points** represents an improved and cross-platform
-approach.
+approach to accomplish the same goal.
 
 ```python
 # file: setup.py
@@ -36,10 +36,16 @@ make sure that ``my_cli`` is available as an executable on the system.
 Once invoked, the ``main`` function of the ``my_package.cli`` module
 will be called.
 
+```bash
+$ pip install my_package
+$ my_cli  # the main function is called
+Usage: my_cli [OPTIONS] COMMAND [ARGS]...
+```
+
 The problem with the former approach is that it requires separating
 CLI related code into a isolated file outside the main package. With
 **entry points** it's possible to unify all source code under the same
-source package. This makes testing significantly easier.
+package directory. This makes testing significantly easier.
 
 ---------------------
 
