@@ -1,7 +1,7 @@
 # NumberFormatting 
 
 ## Assignment
-How can someone format a number easily, without thinking too much about how the format would look like in a specific locale. Let's say we want to format: `12345.124` that it will look something like: `12,345.12` of course special characters according to the locale, but how can this be done?
+Format a number for a specific locale. For example, the number 12345.124 should be formatted as `12,345.12` in the USA locale, but `12.345,78` in the German locale.
 
 ## Solution
 ```java
@@ -16,7 +16,7 @@ System.out.println(currencyFormatter.format(123456.12));
 Depending on your default Locale the currencyFormatter will format the number in the right way for you.
 
 ##### Will output:
-```
+```java
 -123,456.78
 ```
 
@@ -26,6 +26,7 @@ Depending on your default Locale the currencyFormatter will format the number in
 ```
 
 ### Executable Online Java Example:
-I prepared an online java testing for you here: [Coding Ground Example] All you have to do is press: compile and execute. Hope you like it.
+Here is an in-browser example that you can try: [Coding Ground Example]
+Steps to run: compile and execute.
 
 [Coding Ground Example]:http://goo.gl/wq7aa5
