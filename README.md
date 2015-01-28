@@ -5,8 +5,16 @@ TILs are short Markdown documents (a few sentences + example code) explaining a
 new concept, bit of syntax, command, or tip that we've learned.
 
 To subscribe for updates,
-either watch this GitHub repo
-or follow [@thoughtbot](https://twitter.com/thoughtbot) on Twitter.
+watch this GitHub repo
+or follow [@upcase] on Twitter.
+
+[@upcase]: https://twitter.com/upcase
+
+If you like this repo,
+you might also like
+[Upcase]'s programming exercises and videos.
+
+[Upcase]: https://upcase.com?utm_source=til
 
 License
 -------
