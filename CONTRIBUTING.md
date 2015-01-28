@@ -12,4 +12,4 @@ Open a pull request for review.
 
 After merging into master,
 [Buffer](https://bufferapp.com) a tweet from the
-[@thoughtbot](https://twitter.com/thoughtbot) account.
+[@upcase](https://twitter.com/upcase) account.
