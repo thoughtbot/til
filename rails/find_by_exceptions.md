@@ -16,4 +16,4 @@ ObjectModel.find_by!(id: 3) # bad!
 ObjectModel.find_by(id: 3) # good, when trying to avoid exceptions
 ```
 
-`find_by!` will raise an exception and makes the first two essentially the same.
+`find_by!` will raise an exception and makes the first two essentially the same. It should be noted that the dynamic `find_by_[attribute]` methods follow the same convention, though they are [mildly deprecated](http://api.rubyonrails.org/classes/ActiveRecord/Base.html#class-ActiveRecord::Base-label-Dynamic+attribute-based+finders).
