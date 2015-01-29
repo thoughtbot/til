@@ -1,7 +1,7 @@
 # NumberFormatting 
 
 ## Assignment
-Format a number for a specific locale. For example, the number 12345.124 should be formatted as `12,345.12` in the USA locale, but `12.345,78` in the German locale.
+Format a number for a specific locale. For example, the number 12345.123 should be formatted as `12,345.12` in the USA locale, but `12.345,12` in the German locale.
 
 ## Solution
 ```java
@@ -17,12 +17,12 @@ Depending on your default Locale the currencyFormatter will format the number in
 
 ##### If you have a locale like `Locale.US` it will output:
 ```java
--123,456.78
+-12,345.12
 ```
 
 ##### Or if you have a locale like `Locale.GERMANY`:
 ```java
--123.456,78
+-12.345,12
 ```
 
 ### What about the Locale
