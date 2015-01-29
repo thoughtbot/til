@@ -17,12 +17,12 @@ Depending on your default Locale the currencyFormatter will format the number in
 
 ##### If you have a locale like `Locale.US` it will output:
 ```java
--12,345.12
+12,345.12
 ```
 
 ##### Or if you have a locale like `Locale.GERMANY`:
 ```java
--12.345,12
+12.345,12
 ```
 
 ### What about the Locale
@@ -32,5 +32,5 @@ Using `Locale.getDefault()` allows you to get the System default, so it depends 
 Here is an in-browser example that you can try: [Coding Ground Example]
 Steps to run: compile and execute.
 
-[Coding Ground Example]:http://goo.gl/wq7aa5
+[Coding Ground Example]:http://www.tutorialspoint.com/compile_java_online.php?PID=0Bw_CjBb95KQMbHZ0NWc1OVRONkE
 [Documentation for Locale]:http://docs.oracle.com/javase/7/docs/api/java/util/Locale.html
