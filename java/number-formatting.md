@@ -15,7 +15,7 @@ System.out.println(currencyFormatter.format(123456.12));
 
 Depending on your default Locale the currencyFormatter will format the number in the right way for you.
 
-##### Will output:
+##### If you have a locale like `Locale.US` it will output:
 ```java
 -123,456.78
 ```
@@ -25,8 +25,12 @@ Depending on your default Locale the currencyFormatter will format the number in
 -123.456,78
 ```
 
+### What about the Locale
+Using `Locale.getDefault()` allows you to get the System default, so it depends on your settings. You can test it for other Locale's by using fixed locale values like: `Locale.GERMAN`or `Locale.US` for USA. You also can find the Local according to the `language`/`country` by using `Locale(String language)` or `Locale(String language, String country)`. More details can be found here: [Documentation for Locale].
+
 ### Executable Online Java Example:
 Here is an in-browser example that you can try: [Coding Ground Example]
 Steps to run: compile and execute.
 
 [Coding Ground Example]:http://goo.gl/wq7aa5
+[Documentation for Locale]:http://docs.oracle.com/javase/7/docs/api/java/util/Locale.html
