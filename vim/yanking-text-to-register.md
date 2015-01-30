@@ -1,6 +1,6 @@
 # Yanking text to register
 
-Yanking and deleting text will save the text to the same unnamed register. Which means every time you delete a word, your 
+Yanking and deleting text will save the text to the same unnamed register. Every time you delete a word, your 
 yanked word will be overwritten. Which caused me endless amounts of frustration when I accidentally deleted a word and had to
 remember what I yanked earlier.
 
@@ -12,7 +12,7 @@ An example usage is:
 
 `"ayw`
 
-This will save the yanked word to the register a. After deleting various things in your file you can always paste your yanked
+This will save the yanked word to the register `a`. After deleting various things in your file you can always paste your yanked
 word by:
 
 `"ap`
