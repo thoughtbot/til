@@ -10,10 +10,10 @@ DecimalFormat currencyFormatter = (DecimalFormat) NumberFormat.getInstance(Local
 currencyFormatter.setMaximumFractionDigits(2);
 currencyFormatter.setMinimumFractionDigits(2);
 
-System.out.println(currencyFormatter.format(123456.12));
+System.out.println(currencyFormatter.format(12345.12));
 ```
 
-Depending on your default Locale the currencyFormatter will format the number in the right way for you.
+Depending on your default Locale the currencyFormatter will format the number the right way.
 
 ##### If you have a locale like `Locale.US` it will output:
 ```java
