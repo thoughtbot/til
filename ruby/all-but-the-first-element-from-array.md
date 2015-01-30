@@ -60,6 +60,20 @@ will sometimes return `nil`
 # => []
 ```
 
+## Multiple Assignment
+
+You can also accomplish the task with multiple assignment, splat, and a discarded value. This example demonstrates several useful ruby idioms at once:
+
+```ruby
+_, *rest = list
+# => [1,2,3,4]
+
+rest
+# => [2,3,4]
+```
+
+Although this technique is non-destructive (`list` remains intact), the assignment operation returns `list`. If you want to continue working on the array, consider `Array#drop` since it is chainable.
+
 [shift docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-shift
 [slice docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-slice
 [drop docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-drop
