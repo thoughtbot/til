@@ -1,6 +1,7 @@
 # Setuptools entry points
-The most common way of exposing a Python CLI is to use the "scripts"
-keyword in ``setup.py``.
+When building a Python package, the most common way of exposing a
+command line interface (CLI) is to use the "scripts" keyword in
+``setup.py``.
 
 ```python
 # file: setup.py
