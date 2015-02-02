@@ -1,8 +1,8 @@
 # Man Section 7
 
-For most of us, man pages are primarily the source of documentation for various system-level tools, be it `curl`, `ssh`, `gcc` or multitude of others.
+For most of us, `man` pages are primarily the source of documentation for various system-level tools, be it `curl`, `ssh`, `gcc` or multitude of others.
 
-But that's not all that there is. TIL about man section 7 and some of its pages that you can't visit by mere accident.
+But that's not all that there is. TIL about `man` section 7 and some of its pages that you can't visit by mere accident.
 
 As `man 7 intro` puts it:
 
@@ -24,10 +24,10 @@ Here is the overview of some pages that stood out to me. To visit a page, type `
 
 | page            | description
 | :-------------: | :----------
-| ascii           | ASCII table right in your man pager. With no extra tools. In 3 different layouts!
+| ascii           | ASCII table right in your `man` pager. With no extra tools. In 3 different layouts!
 | boot            | Fantastic and rather condensed explanation of Linux boot sequence.
 | charsets        | "Programmer's view" of different character sets, including ASCII, ISO 8859 (Latin-x), Unicode and some lesser known national charsets. Hopefully not particularly relevant anymore.
-| complex         | Basics of complex number arithmetics, as a man page!
+| complex         | Basics of complex number arithmetics, as a `man` page!
 | credentials     | PID, PPID, GID, SID, UID.
 | des_modes       | Cryptographic modes for block cyphers (ECB, CBC and others). Not specific to DES at all! Although the page leaves much to be desired.
 | fifo            | Awesome named pipes!
@@ -36,8 +36,8 @@ Here is the overview of some pages that stood out to me. To visit a page, type `
 | gpl             | GNU General Public License.
 | hier            | Description of the file system hierarchy! Ever wondered what `/usr/share` really means?
 | mailaddr        | Email address description, in case you forgot.
-| man-pages       | Conventions for writing man pages. Probably useful on its own, as a source of advice for writing any kind of technical documentation.
-| operator        | Operator precedence of the C language! Don't google it anymore, you have this useful man page preinstalled.
+| man-pages       | Conventions for writing `man` pages. Probably useful on its own, as a source of advice for writing any kind of technical documentation.
+| operator        | Operator precedence of the C language! Don't google it anymore, you have this useful `man` page preinstalled.
 | path_resolution | Detailed overview of path resolution process. Absolute vs. relative, permissions, symlinks, mount points, trailing slash.
 | pipes           | Pipes and FIFOs.
 | regex           | POSIX.2 regular expressions syntax.
