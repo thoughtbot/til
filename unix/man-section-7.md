@@ -17,7 +17,7 @@ file system layout, and miscellaneous other things.
 You can see the entire list for yourself with the following command:
 
 ```
-ls -1 /usr/share/man/man7 |grep -o '^[^.]*' |xargs whatis -s7 |less
+ls -1 /usr/share/man/man7 | grep -o '^[^.]*' | xargs whatis -s7 | less
 ```
 
 Here is the overview of some pages that stood out to me. To visit a page, type `man <name>` or `man 7 <name>` to avoid collisions with pages in other sections.
