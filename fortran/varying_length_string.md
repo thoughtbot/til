@@ -31,7 +31,7 @@ By default, many compilers does not allow the LHS (re)allocation, thus it must b
 
 + *GNU gfortran* `-frealloc-lhs`
 + *Intel Fortran Compiler* `-assume realloc_lhs`
-+ *IBM XL Fortran Compiler * `-qxlf2003=autorealloc`
++ *IBM XL Fortran Compiler* `-qxlf2003=autorealloc`
 
 ### Note
 A varying length string can be used as any other character variables except for the `read` built-in function: in order to use a varying length string into a `read` expression, the string must be previously allocated.
