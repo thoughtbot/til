@@ -50,3 +50,7 @@ Keep in mind that you might have to force push your branch to `origin`,
 depending on whether or not your revised commits have been pushed.
 
     $ git push origin my-branch-name --force
+
+However, it is always recommended that you do not rebase commits that are already
+pushed to a public repository.
+Read more about [The Perils of Rebasing](http://git-scm.com/book/en/v2/Git-Branching-Rebasing#The-Perils-of-Rebasing)
