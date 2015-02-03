@@ -5,7 +5,7 @@ This is a guide to help those unfamiliar with git contribute to the TIL reposito
 ## Setup
 Fork this repository.
 
-![How to Fork](how-to-fork.png)
+![How to Fork](img/how-to-fork.png)
 
 ## Submitting Changes
  1. Create a branch for your changes. Give it a descriptive name.
