@@ -53,7 +53,7 @@ Here is the overview of some pages that stood out to me. To visit a page, type `
 | man-pages       | Conventions for writing `man` pages. Probably useful on its own, as a source of advice for writing any kind of technical documentation.
 | operator        | Operator precedence of the C language! Don't google it anymore, you have this useful `man` page preinstalled.
 | path_resolution | Detailed overview of path resolution process. Absolute vs. relative, permissions, symlinks, mount points, trailing slash.
-| pipes           | Pipes and FIFOs.
+| pipe            | Pipes and FIFOs.
 | regex           | POSIX.2 regular expressions syntax.
 | signal          | All you need to know about the signals.
 | suffixes        | Outdated list of file extensions. Might be useful some day.
