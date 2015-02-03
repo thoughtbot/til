@@ -14,13 +14,27 @@ describes conventions and protocols, character set standards, the standard
 file system layout, and miscellaneous other things.
 ```
 
-You can see the entire list for yourself with the following command:
+You can see the entire list for yourself with one of the following commands, depending on your system:
 
 ```
 apropos '.*' | grep '(7.* - ' | sort | less
 ```
 
+or
+
+```
+apropos sec=7 | sort | less
+```
+
+or
+
+```
+ls -1 /usr/share/man/man7 | sed 's:\.7.*\.gz$::' | xargs whatis | less
+```
+
 Here is the overview of some pages that stood out to me. To visit a page, type `man <name>` or `man 7 <name>` to avoid collisions with pages in other sections.
+
+*Note: you can lack some pages from the list below on your system.*
 
 | page            | description
 | :-------------: | :----------
