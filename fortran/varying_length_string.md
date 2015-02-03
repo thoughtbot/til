@@ -1,5 +1,5 @@
 # Varying Length String
-The standard [ISO/IEC 1539](ftp://ftp.nag.co.uk/sc22wg5/N001-N1100/N939.pdf) has introduced the concept of *iso varying string* in Fortran. The modern Fortran 2003+ has standardized the concept of *varying length string*: a string of arbitrary and dynamical variable length.
+The standard [ISO/IEC 1539](http://www.iso.org/iso/catalogue_detail.htm?csnumber=6129) has introduced the concept of *iso varying string* in Fortran. The modern Fortran 2003+ has standardized the concept of *varying length string*: a string of arbitrary and dynamical variable length.
 
 ### Define a varying length string
 In Fortran 2003 a varying length string can be defined a deferred length, allocatable character variable
@@ -29,9 +29,9 @@ string = 'my default value'
 ```
 By default, many compilers does not allow the LHS (re)allocation, thus it must be explicitly enable at compile time. The following is an incomplete list of switches to enable LHS (re)allocation with the most used compiler:
 
-+ *GNU gfortran*: `-frealloc-lhs`;
-+ *Intel Fortran Compiler*: `-assume realloc_lhs`;
-+ *IBM XL Fortran Compiler *: `-qxlf2003=autorealloc`.
++ *GNU gfortran* `-frealloc-lhs`
++ *Intel Fortran Compiler* `-assume realloc_lhs`
++ *IBM XL Fortran Compiler * `-qxlf2003=autorealloc`
 
 ### Note
 A varying length string can be used as any other character variables except for the `read` built-in function: in order to use a varying length string into a `read` expression, the string must be previously allocated.
