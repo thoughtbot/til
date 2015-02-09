@@ -1,4 +1,4 @@
-# `console` misknown features.
+# `console` lesser known features.
 
 We've all used the [`console`](https://developer.mozilla.org/en-US/docs/Tools/Web_Console "Console Tool on Firefox") tools
 for age (Thank you Firebug) ; but most of use only use the basic features like `console.log()` or `console.error()`.
