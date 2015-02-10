@@ -63,7 +63,7 @@ console.groupEnd(); // For the "Second group"
 
 :arrow_double_down:
 
-![Grouping in Firefox](javascript/console_lesser_known_features/group.png)
+![Grouping in Firefox](console_lesser_known_features/group.png)
 
 ```javascript
 console.groupCollapsed('Pre-collapsed to save your eyes');
@@ -75,7 +75,7 @@ console.groupEnd();
 
 :arrow_double_down:
 
-![Grouping in Chrome](javascript/console_lesser_known_features/collapsed.gif)
+![Grouping in Chrome](console_lesser_known_features/collapsed.gif)
 
 ## Measuring & profiling
 
@@ -128,9 +128,9 @@ console.profileEnd();
 ```
 :arrow_double_down:
 
-![Fibonacci profiling on IE](javascript/console_lesser_known_features/fibonacci_ie.png)
+![Fibonacci profiling on IE](console_lesser_known_features/fibonacci_ie.png)
 *On IE*
-![Fibonacci profiling on IE](javascript/console_lesser_known_features/fibonacci_chrome.png)
+![Fibonacci profiling on IE](console_lesser_known_features/fibonacci_chrome.png)
 *On Chrome*
 
 You may also use `console.count()` to count the times a label has been executed :
@@ -214,7 +214,7 @@ console.table([['a', 'b', 'c'], ['easy as'], [1,2,3]]);
 
 :arrow_double_down:
 
-![Simple table](javascript/console_lesser_known_features/table_simple.png)
+![Simple table](console_lesser_known_features/table_simple.png)
 
 :point_right: Some browsers "decides" if whether a table is needed or not to
 display your data. For example, ```console.table([1,2,3]);``` will probably not
@@ -242,7 +242,7 @@ console.table(venal_crushes, ['name', 'salary']);
 
 :arrow_double_down:
 
-![Filtered table](javascript/console_lesser_known_features/table_filter.png)
+![Filtered table](console_lesser_known_features/table_filter.png)
 
 ## Log a stack trace
 
@@ -272,4 +272,4 @@ var d = function() {
 
 :arrow_double_down:
 
-![Stack trace](javascript/console_lesser_known_features/stack.png)
+![Stack trace](console_lesser_known_features/stack.png)
