@@ -13,7 +13,7 @@ sys.stdout.write() has to be used.
     def slow_type(string):
         for letter in string:
             sys.stdout.write(letter)
-	    sys.stdout.flush()
-	    time.sleep(0.07) # Randon can be used to vary the speed of scroll.
+            sys.stdout.flush()
+            time.sleep(0.07) # Randon can be used to vary the speed of scroll.
 
     slow_type("This string will be typed horizontally on the console\n")
