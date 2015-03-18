@@ -1,4 +1,6 @@
-### Inject
+# Inject vs each_with_object
+
+## Inject
 
 Inject takes the value of the block and passes it along.
 This causes a lot of errors like.
@@ -28,7 +30,7 @@ What you really wanted.
   Output: => {"A"=>"a", "B"=>"b", "C"=>"c", "D"=>"d"}
   ```
 
-### each_with_object
+## each_with_object
 
   each_with_object ignores the return value of the block and passes the initial object along.
 
@@ -44,6 +46,3 @@ What you really wanted.
 One more thing which you can notice is the order of arguments to the block for each of the functions.
 
 Inject takes the result/accumulator and then the iteratable value, whereas 'each_with_object' takes the value followed by the result/accumulator.
-
-
-
