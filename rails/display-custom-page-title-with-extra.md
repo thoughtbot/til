@@ -11,9 +11,9 @@ users searching on your site to see what your site is about!
 
 ```
 
-This is snipped directly copied from my template file. The ``` '::' ``` part is the delimiter, 
+This is snipped from my own template file. The ``` '::' ``` part is the delimiter, 
 to be shows between the "dynamic" and "static" parts of the title. The second string is the static part of the title,
-that part is always shown.
+ which is always shown.
 
 In your view files you can do:
 
