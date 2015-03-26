@@ -20,5 +20,3 @@ In your view files you can do:
 ```haml
 = content_for(:title, " Show #{@pin.title}")
 ```
-
-
