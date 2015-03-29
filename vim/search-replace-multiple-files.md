@@ -31,7 +31,7 @@ Searching all instances of **foo** and replacing with **bar**:
 
 **Notice**: the **e** on the replace command tells vim to ignore errors,
 otherwise vim would print an error on each file that doesn't have a match for
-**foo***
+**foo**
 
 You can now open the buffers (`:buffer <buffer_number>`) and verify that the
 text was replaced.
