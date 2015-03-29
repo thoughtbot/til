@@ -29,7 +29,7 @@ Searching all instances of **foo** and replacing with **bar**:
 :bufdo %s/foo/bar/ge
 ```
 
-**Notice: the **e** on the replace command tells vim to ignore errors,
+**Notice**: the **e** on the replace command tells vim to ignore errors,
 otherwise vim would print an error on each file that doesn't have a match for
 **foo***
 
