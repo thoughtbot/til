@@ -1,10 +1,10 @@
 # Useful *Bang*
 
-I found another great thing bash console provides for the lazy programmers ;) Most of the time we need to repeat the commands we entered in linux terminal and many hardworking engineers typing it again and again ;)
+I found another great thing bash console provides for the lazy programmers. Most of the time we need to repeat the commands we entered in linux terminal and many hardworking engineers typing it again and again.
 
 Linux provides many tools which remembers history and on top of that we can make our life easy.
 
-Usually i work on servers and whenever try to fire few root access commands and it dont allow me!! -_-,feels insulting. Anyway sudo !! is here to rescue you :)
+Usually i work on servers and whenever try to fire few root access commands and it dont allow me!!, feels insulting. Anyway sudo !! is here to rescue you.
 
 ![Bang-bang](http://codeinventory.com/images/bang-bang.jpg)
 
