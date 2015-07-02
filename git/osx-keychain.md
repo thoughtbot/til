@@ -14,7 +14,7 @@ nagging you.
    an HTTPS GitHub remote.
 2. It does not ask for your username and password when you interact with an SSH
    GitHub remote.
-3. You're git version is 1.7.10 or newer. Run `git --version` to find out which
+3. Your git version is 1.7.10 or newer. Run `git --version` to find out which
    version you have.
 
 ## The Cure
