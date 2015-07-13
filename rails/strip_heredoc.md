@@ -50,3 +50,5 @@ If you need to load this outside of rails:
 ```ruby
 require 'active_support/core_ext/string/strip'
 ```
+
+Or grab the [source code](https://github.com/rails/rails/blob/b422cda2ebfff4032f4c18271e96ad329c413dcc/activesupport/lib/active_support/core_ext/string/strip.rb#L22-L25) it self.
