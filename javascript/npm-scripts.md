@@ -30,7 +30,7 @@ not directly supported.
 
 To execute the `build` script, run:
 
-      $ npm run-script build
+      $ npm run build
 
 It is also important to note that a `prebuild` hook *would not* fire before the
 `build` script's execution.
