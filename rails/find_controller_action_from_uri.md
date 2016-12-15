@@ -26,7 +26,7 @@ Try out the following:
 Rails.application.routes.recognize_path('/posts') #=> { controller: 'posts', action: 'index' }
 ```
 
-I discovered this method via a failed refactoring, so I honestly don't have a great use-case for `#recognize_path`.
+I used it working on authorization system. I needed to disable links that user has no access to follow. In my controller I have defined two arrays: read actions and manage actions. So creating link I checked user permissions and permissions needed to follow the link.
 
 Nevertheless, I think `#recognize_path` is an interesting, undocumented, and [huge][4_1_8_recognize_path_source] part `ActionDispatch::Routing::RouteSet`'s API!
 
