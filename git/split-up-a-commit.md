@@ -46,7 +46,10 @@ If all went well, your branch's history will be re-written.
     274ac0e Move components
     # ...
 
-Keep in mind that you might have to force push your branch to `origin`,
-depending on whether or not your revised commits have been pushed.
+Now you can push your changes.
 
-    $ git push origin my-branch-name --force
+    $ git push origin my-branch-name
+
+It is always recommended that you do not rebase commits that are already
+pushed to a public repository.
+Read more about [The Perils of Rebasing](http://git-scm.com/book/en/v2/Git-Branching-Rebasing#The-Perils-of-Rebasing)
