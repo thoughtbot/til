@@ -10,7 +10,7 @@ Create a new directory if no existing one fits.
 
 Open a pull request for review.
 
-For help submitting, please review our [Git Commits for Non-Git Users](/GitCommitsForNonGitUsers.md) guide.
+If you don't know how to use Git or GitHub, please read the [GitHub Web Interface](/github-web-interface.md) guide.
 
 After merging into master,
 [Buffer](https://bufferapp.com) a tweet from the
