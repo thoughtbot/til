@@ -50,3 +50,7 @@ Keep in mind that you might have to force push your branch to `origin`,
 depending on whether or not your revised commits have been pushed.
 
     $ git push origin my-branch-name --force
+
+But you should usually avoid doing this if you are not the only person working on this branch.
+If you force a push in a branch that other people are working on too, you can create
+a mess in the history and it will be hard to organize it again.
