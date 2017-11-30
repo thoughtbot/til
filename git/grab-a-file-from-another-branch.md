@@ -1,4 +1,4 @@
-#Use a file from another branch
+# Use a file from another branch
 
 Sometimes you just need one file from another branch. Sure you could `git
 cherry-pick` but then you're dealing with commits. That sort of thing gets
