@@ -21,6 +21,14 @@ rest_of_list = list
 # => [2,3,4]
 ```
 
+Or in one line utilizing `tap`, which runs a block, and always returns the 
+value it was called on:
+
+```ruby
+list.tap(&:shift)
+# => [2,3,4]
+```
+
 ## Slice
 
 In the past I've used [`slice`][slice docs], but specifying indices or passing
